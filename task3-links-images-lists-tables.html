@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 3 - Links, Images, Lists and Tables</title>
+</head>
+<body>
+  <h1>Links, Images, Lists and Tables</h1>
+  <nav>
+    <p>Jump to: <a href="#images">Images</a> | <a href="#lists">Lists</a> | <a href="#tables">Tables</a></p>
+  </nav>
+  <h2>External Links</h2>
+  <ul>
+    <li><a href="https://internnova.co.in/" target="_blank" rel="noopener noreferrer">InternNova (official site)</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">MDN HTML documentation</a></li>
+  </ul>
+  <h2 id="images">Image</h2>
+  <img src="images/learning.svg" alt="Blue banner with the text Learning HTML5" width="400" height="200">
+  <h2 id="lists">Lists</h2>
+  <h3>Ordered list: steps to open a page</h3>
+  <ol>
+    <li>Save the file</li>
+    <li>Right-click it</li>
+    <li>Choose a browser</li>
+  </ol>
+  <h3>Unordered list: web basics</h3>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+  <h3>Nested list: course topics</h3>
+  <ul>
+    <li>Frontend
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+      </ul>
+    </li>
+    <li>Backend
+      <ul>
+        <li>Node.js</li>
+      </ul>
+    </li>
+  </ul>
+  <h2 id="tables">Table</h2>
+  <table>
+    <caption>Sample weekly learning schedule</caption>
+    <thead>
+      <tr><th scope="col">Day</th><th scope="col">Topic</th><th scope="col">Hours</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Monday</td><td>Document structure</td><td>2</td></tr>
+      <tr><td>Tuesday</td><td>Text formatting</td><td>2</td></tr>
+      <tr><td>Wednesday</td><td>Forms</td><td>3</td></tr>
+    </tbody>
+  </table>
+  <p><a href="#top-note">Note</a>: all values above are sample data.</p>
+  <p id="top-note">This note is the target of the link above (matching id).</p>
+</body>
+</html>
